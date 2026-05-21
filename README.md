@@ -2,10 +2,6 @@
 
 A first-pass characterization of how accurate **dynamic Flux Balance Analysis (dFBA)** is — both numerically (vs. timestep) and physically (vs. wet-lab measurements) — on microbial consortia. The goal is to decide whether dFBA-generated trajectories are good enough to train a surrogate model on, and if so, how much real wet-lab data we'd still need to anchor it.
 
-## The task (verbatim from Kevin)
-
-> I want to get a baseline of how good dFBA is, so we can see if we can potentially use it to train our model and gauge how much wet lab data we actually need. Basically, your task is to look into dFBA (a numerical solution that approximates the dynamics of FBA systems) on a couple different consortia whose dynamics are already characterized in the wet lab. Then plot the dynamics dFBA (and whatever other SOTA methods you find/want to test) gives you at various timesteps (since we are investigating training a surrogate, you can try "unreasonably" small time steps as we won't actually scale this). Also find some metric to characterize how wrong we are and defend it. This is the extension of your task with Kevin to find what datasets are out there, so the first step will be finding a consortia whose dynamics are already characterized.
-
 ## TL;DR
 
 - **Numerical error is cheap to kill.** On both cases below, Forward-Euler dFBA shows clean first-order convergence; by `dt ≈ 0.01 h` the trajectory is within ~0.5 % of the `dt → 0` reference.
