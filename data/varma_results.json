@@ -1,0 +1,93 @@
+{
+  "1.0": {
+    "metrics": {
+      "nRMSE_log_biomass": 0.19852810641813334,
+      "nRMSE_log_glucose": 0.3497639771368116,
+      "nRMSE_log_acetate": 2.2077776170520638,
+      "AUC_relerr_biomass": 0.9056603796655248,
+      "AUC_relerr_glucose": 0.09226083605493457,
+      "AUC_relerr_acetate": 0.595295678058995,
+      "glucose_exhaust_time_err_h": 1.0
+    },
+    "wall_s": 0.01581854199999988,
+    "n_steps": 10
+  },
+  "0.5": {
+    "metrics": {
+      "nRMSE_log_biomass": 0.21831399696877496,
+      "nRMSE_log_glucose": 0.4344298768707531,
+      "nRMSE_log_acetate": 2.6372893357469627,
+      "AUC_relerr_biomass": 0.8635850632768794,
+      "AUC_relerr_glucose": 0.22124463154395102,
+      "AUC_relerr_acetate": 0.6782762133580591,
+      "glucose_exhaust_time_err_h": 2.0
+    },
+    "wall_s": 0.021745874999999693,
+    "n_steps": 20
+  },
+  "0.1": {
+    "metrics": {
+      "nRMSE_log_biomass": 0.25021781297635004,
+      "nRMSE_log_glucose": 0.43574176931788133,
+      "nRMSE_log_acetate": 1.2663512531439478,
+      "AUC_relerr_biomass": 0.9537738864863783,
+      "AUC_relerr_glucose": 0.30962341843655494,
+      "AUC_relerr_acetate": 0.7323733272760546,
+      "glucose_exhaust_time_err_h": 2.0
+    },
+    "wall_s": 0.10955300000000001,
+    "n_steps": 100
+  },
+  "0.05": {
+    "metrics": {
+      "nRMSE_log_biomass": 0.2548488901537875,
+      "nRMSE_log_glucose": 0.43649994152778243,
+      "nRMSE_log_acetate": 1.2925223183871533,
+      "AUC_relerr_biomass": 0.9631791158127306,
+      "AUC_relerr_glucose": 0.3263455155940755,
+      "AUC_relerr_acetate": 0.7327844060520252,
+      "glucose_exhaust_time_err_h": 2.0
+    },
+    "wall_s": 0.21928716700000006,
+    "n_steps": 200
+  },
+  "0.01": {
+    "metrics": {
+      "nRMSE_log_biomass": 0.25682926446718163,
+      "nRMSE_log_glucose": 0.43761798276660435,
+      "nRMSE_log_acetate": 1.1961902793349415,
+      "AUC_relerr_biomass": 0.9494401136442793,
+      "AUC_relerr_glucose": 0.3410985815071869,
+      "AUC_relerr_acetate": 0.7233888326887814,
+      "glucose_exhaust_time_err_h": 2.0
+    },
+    "wall_s": 1.0860942499999995,
+    "n_steps": 1000
+  },
+  "0.005": {
+    "metrics": {
+      "nRMSE_log_biomass": 0.257067666431123,
+      "nRMSE_log_glucose": 0.4378183186731052,
+      "nRMSE_log_acetate": 1.1904497311610864,
+      "AUC_relerr_biomass": 0.9474309680497655,
+      "AUC_relerr_glucose": 0.34303552392352216,
+      "AUC_relerr_acetate": 0.7220617127026001,
+      "glucose_exhaust_time_err_h": 2.0
+    },
+    "wall_s": 2.160718041999999,
+    "n_steps": 2000
+  },
+  "0.001": {
+    "metrics": {
+      "nRMSE_log_biomass": 0.25756868043888925,
+      "nRMSE_log_glucose": 0.43799300534387176,
+      "nRMSE_log_acetate": 1.1904398033646477,
+      "AUC_relerr_biomass": 0.9492940292115577,
+      "AUC_relerr_glucose": 0.34460035409156387,
+      "AUC_relerr_acetate": 0.7213665391475966,
+      "glucose_exhaust_time_err_h": 2.0
+    },
+    "wall_s": 11.000820416000002,
+    "n_steps": 10000
+  }
+}
